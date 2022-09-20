@@ -1,16 +1,16 @@
 Citizen.CreateThread(function()
 	while true do
-		SetDiscordAppId(1019902140182953995) -- podaj id bota
+		SetDiscordAppId(1019902140182953995) -- podaj id bota -- write id of bot
 
-		SetDiscordRichPresenceAsset('menel') --
+		SetDiscordRichPresenceAsset('menel') -- nazwa duzej foty -- name of big pic
         
-        SetDiscordRichPresenceAssetText('szopenbot')
+        SetDiscordRichPresenceAssetText('szopenbot') -- glowa nazwa -- main name
        
-        SetDiscordRichPresenceAssetSmall('menel')
+        SetDiscordRichPresenceAssetSmall('menel') -- nazwa malej foty -- name of small pic
 
-        SetDiscordRichPresenceAssetSmallText('szopenbot')
+        SetDiscordRichPresenceAssetSmallText('szopenbot') -- mala nazwa -- small name
 
-        SetDiscordRichPresenceAction(0, "Dodaj Link", "twitch.tv/szopen_d")
+        SetDiscordRichPresenceAction(0, "Dodaj Link", "twitch.tv/szopen_d") -- guzik 1 -- button 1
 
 		Citizen.Wait(30000)
 	end
